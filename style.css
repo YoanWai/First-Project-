@@ -1,0 +1,106 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.leftDiv {
+  flex-basis: 40%;
+  background-color: rgb(235, 235, 235);
+  display: inline-block;
+  margin: 10px;
+  border: 2px solid blue;
+  padding: 10px;
+  border-radius: 5px;
+}
+.rightDiv {
+  flex-basis: 60%;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.inputBoxs {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(255, 0, 0);
+  width: 90%;
+  background-color: rgb(159, 164, 126);
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.otherDataSpans {
+  margin-right: 25px;
+  margin-left: 5px;
+}
+
+.inputButtonsDivs {
+  margin-top: 5px;
+}
+
+.otherDataDivs {
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 225px;
+  height: 125px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+
+.divInOtherDataDivs {
+  width: 80%;
+  margin-left: 10px;
+}
+
+.otherDataInputs {
+  width: 108%;
+}
+
+.userTodosInfo,
+.userPostsInfo {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(107, 0, 156);
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.userTodos,
+.userPosts {
+  border: 2px solid rgb(255, 196, 0);
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.todoAddButton,
+.postAddButton {
+  float: right;
+  font-size: 12px;
+}
+
+.userTodosCompleted {
+  margin-top: 10px;
+}
+.userTodosTitle {
+  font-weight: 600;
+}
+
+.userTodosFirstLine {
+  font-size: x-large;
+  text-decoration: underline;
+}
+.markCompletedButton {
+  float: right;
+}
